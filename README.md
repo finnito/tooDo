@@ -49,6 +49,23 @@ You may wish to customise the FIX/TODO/NOTE/whateveryouwant patterns being searc
 
 You can also change the font family, font size, font colour, background colour and colour of the currently selected line.
 
+```toml
+[display]
+    background = "#ecf0f1"
+    text = "#1e272e"
+    current_line = "#badc58"
+    font_family = 'Space Mono'
+    font_size = 13
+    font_size_big = 16
+```
+
+You may also wish to crank up how often changes to the todo list are checked for. It is set by default to `1000ms` which seems perfectly good to me. It will use lots more CPU if you make it excessively small.
+
+```toml
+[settings]
+    tk_refresh_rate = 1000
+```
+
 ---
 
 ### Dependencies
