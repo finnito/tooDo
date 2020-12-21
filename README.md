@@ -1,8 +1,10 @@
 # TooDo
 
-> Find the tasks in your source files!
+> Find the FIX/NOTE/TODO tasks in your source files!
 
 This is a fun weekend project for me, but I am all for learning, so [let me know](https://github.com/Finnito/tooDo/issues) if things don't work, or you have a feature request.
+
+![The real basic GUI.](https://github.com/finnito/tooDo/blob/main/gui-screenshot.png?raw=true)
 
 ## How to Use
 
