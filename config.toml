@@ -1,0 +1,119 @@
+[patterns]
+    [patterns.FIX]
+        regex = "FIX:\\s*(.*)"
+    [patterns.TODO]
+        regex = "TODO:\\s*(.*)"
+    [patterns.NOTE]
+        regex = "NOTE:\\s*(.*)"
+
+[directories]
+    [directories.Putaiao]
+        path = "/Users/finnlesueur/Git/science.lesueur.nz/"
+        ignore_paths = [
+            "public",
+            ".git",
+            "error_log",
+            "static/reveal.js",
+        ]
+        ignore_types = [
+            ".html",
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".gif",
+            ".gpx",
+            ".min.js",
+        ]
+
+    [directories.Blog]
+        path = "/Users/finnlesueur/Git/finn.lesueur.nz/"
+        ignore_paths = [
+            "public",
+            ".git",
+            "error_log",
+        ]
+        ignore_types = [
+            ".html",
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".gif",
+            ".gpx",
+            ".min.js",
+        ]
+
+    [directories.Teaching_Blog]
+        path = "/Users/finnlesueur/Git/science.lesueur.nz/"
+        ignore_paths = [
+            "public",
+            ".git",
+            "error_log",
+        ]
+        ignore_types = [
+            ".html",
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".gif",
+            ".gpx",
+            ".min.js",
+        ]
+
+    [directories.tooDo]
+        path = "/Users/finnlesueur/Git/tooDo/"
+        ignore_paths = [
+            "public",
+            ".git",
+            "error_log",
+            "venv",
+        ]
+        ignore_types = [
+            ".html",
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".gif",
+            ".gpx",
+            ".min.js",
+        ]
+
+[comment_fences]
+    [comment_fences.cs]
+        fence = "*/"
+    [comment_fences.cpp]
+        fence = "*/"
+    [comment_fences.c]
+        fence = "*/"
+    [comment_fences.go]
+        fence = "*/"
+    [comment_fences.java]
+        fence = "*/"
+    [comment_fences.js]
+        fence = "*/"
+    [comment_fences.md]
+        fence = "-->"
+    [comment_fences.php]
+        fence = "*/"
+    [comment_fences.rs]
+        fence = "*/"
+    [comment_fences.coffee]
+        fence = "###"
+    [comment_fences.html]
+        fence = "-->"
+    [comment_fences.pl]
+        fence = "=end comment"
+    [comment_fences.rb]
+        fence = "=end"
+    [comment_fences.jl]
+        fence = "=#"
+
+[settings]
+    tk_refresh_rate = 1000
+
+[display]
+    background = "#ecf0f1"
+    text = "#1e272e"
+    current_line = "#badc58"
+    font_family = 'Space Mono'
+    font_size = 13
+    font_size_big = 16
